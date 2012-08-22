@@ -1,4 +1,5 @@
 EventWorldExample::Application.routes.draw do
+  mount EventWorld::Engine => "/events"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
