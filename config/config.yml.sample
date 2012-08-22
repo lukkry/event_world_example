@@ -1,0 +1,24 @@
+# This file contains application config.
+# In production, copy it to config.yml and fill with some real data,
+# after that this file will be omitted.
+
+development:
+  twitter:
+    consumer_key: 'secret'
+    consumer_secret: 'secret'
+    oauth_token: 'secret'
+    oauth_token_secret: 'secret'
+
+test:
+  twitter:
+    consumer_key: 'secret'
+    consumer_secret: 'secret'
+    oauth_token: 'secret'
+    oauth_token_secret: 'secret'
+
+production:
+  twitter:
+    consumer_key: 'secret'
+    consumer_secret: 'secret'
+    oauth_token: 'secret'
+    oauth_token_secret: 'secret'
