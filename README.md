@@ -7,7 +7,7 @@ Usage
 -----
 Update config file with Twitter account credentials.
 
-    $ mv config/config.yml sample config/config.yml
+    $ mv config/config.yml.sample config/config.yml
     
 ```ruby
 development:
