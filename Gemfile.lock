@@ -1,12 +1,11 @@
 GIT
   remote: git://github.com/lukkry/event_world.git
-  revision: 3b168aef2abb9495f628cc6d543346b314cc3d6c
+  revision: 45556776bed033fdcb0c5c1b3351fb69a44eaff5
   specs:
     event_world (0.0.1)
       coffee-rails
       faye
       gon
-      jquery-rails
       konf
       rails (~> 3.2.8)
       thin

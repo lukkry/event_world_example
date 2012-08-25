@@ -12,7 +12,7 @@ end
 
 TweetStream::Client.new.track('music', 'facebook') do |status|
   if status.geo.present?
-    event = EventWorld::Event.new({ longitude: status.geo.coordinates[1], latitude: status.geo.coordinates[0] })
+    event = EventWorld::Event.new({ longitude: status.geo.coordinates[1], latitude: status.geo.coordinates[0], body: status.text })
     event.publish
     puts "#{status.from_user}: #{status.geo.coordinates}"
   end
